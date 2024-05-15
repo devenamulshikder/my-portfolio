@@ -104,7 +104,7 @@ const Portfolio = () => {
         {/* projects details */}
         <div className=" flex-1 ">
           <h3 className="lora font-semibold text-2xl text-center mb-5">
-            Pottery Palette
+            Dream Sites
           </h3>
           <p>
             The modern pricing card I created using HTML and CSS is a sleek and

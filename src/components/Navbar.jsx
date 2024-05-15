@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const navlink = (
@@ -37,22 +37,28 @@ const Navbar = () => {
               />
             </svg>
           </div>
-         <div className="">
-         <ul
-            tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-          >
-            {navlink}
-          </ul>
-         </div>
+          <div className="">
+            <ul
+              tabIndex={0}
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              {navlink}
+            </ul>
+          </div>
         </div>
-        <a className="btn btn-ghost text-xl md:text-3xl lg:text-4xl text-[#FFFFFF] inter">Dev. Enamul</a>
+        <a className="btn btn-ghost text-xl md:text-3xl lg:text-4xl text-[#FFFFFF] inter">
+          Dev. Enamul
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navlink}</ul>
       </div>
       <div className="navbar-end">
-        <a className="border px-3 py-1 rounded-full lg:text-xl font-semibold">Let's Talk</a>
+        <Link to='/contact'>
+          <button className="border px-3 py-1 rounded-full lg:text-xl font-semibold">
+            Let's Talk
+          </button>
+        </Link>
       </div>
     </div>
   );
