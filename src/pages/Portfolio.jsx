@@ -1,6 +1,7 @@
 import { FiGithub } from "react-icons/fi";
 import bookVibe from "../assets/projects/booksVibe.png";
 import pottery from "../assets/projects/pottery.png";
+import dream from "../assets/projects/dreamsites.png";
 const Portfolio = () => {
   return (
     <div className="max-w-6xl mx-auto mt-6 md:mt-10 lg:mt-16 p-4">
@@ -97,7 +98,7 @@ const Portfolio = () => {
       <div className="flex flex-col md:flex-row lg:flex gap-10 lg:gap-16 ld:mb-32  lg:mb-48">
         {/* project screen short */}
         <div className=" flex-1 ">
-          <img className=" rounded-2xl h-[320px]" src={pottery} alt="" />
+          <img className=" rounded-2xl h-[320px]" src={dream} alt="" />
         </div>
 
         {/* projects details */}
@@ -117,7 +118,10 @@ const Portfolio = () => {
           </p>
           <div className="flex items-center">
             <button className="py-1 px-8 border rounded-full mt-4 mr-10">
-              <a href="https://pallete-paradise.web.app/" target="blank">
+              <a
+                href="https://assignment-9-real-estate-c65a0.web.app/"
+                target="blank"
+              >
                 View
               </a>
             </button>
@@ -125,7 +129,7 @@ const Portfolio = () => {
               <p>
                 <FiGithub size={30} />
               </p>
-              <a className="hover:underline" target="blank" href="">
+              <a className="hover:underline" target="blank" href="##">
                 Git code
               </a>
             </div>
