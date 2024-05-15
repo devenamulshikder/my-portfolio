@@ -5,7 +5,7 @@ import TechStocks from "../components/TechStocks";
 const Home = () => {
   return (
     <>
-      <div className="text-[#FFFFFF] p-4 mt-10 md:mt-20 lg:mt-[164px] flex flex-col-reverse md:flex-row lg:flex-row justify-between items-center">
+      <div className="max-w-6xl mx-auto text-[#FFFFFF] p-4 mt-10 md:mt-20 lg:mt-[164px] flex flex-col-reverse md:flex-row lg:flex-row justify-between items-center">
         <div>
           <div className="lora text-2xl md:text-4xl lg:text-6xl font-bold mb-3 mt-2">
             <h1>Frontend web</h1>
