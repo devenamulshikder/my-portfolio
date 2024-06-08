@@ -32,10 +32,12 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className='flex justify-center mt-8 lg:mt-16'>
-          <button className="border py-3 px-6 rounded-full text-center hover:scale-105 duration-500">
-            Download CV
-          </button>
+        <div className="flex justify-center mt-8 lg:mt-16">
+          <a href="https://drive.google.com/file/d/1fa_RGl8nUN9fM7rML_xZvRmAPkp-Pwjd/view" target='blank'>
+            <button className="border py-3 px-6 rounded-full text-center hover:scale-105 duration-500">
+              Download Resume!
+            </button>
+          </a>
         </div>
       </div>
     );

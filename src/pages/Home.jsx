@@ -5,7 +5,7 @@ import TechStocks from "../components/TechStocks";
 const Home = () => {
   return (
     <>
-      <div className="max-w-6xl mx-auto text-[#FFFFFF] p-4 mt-10 md:mt-20 lg:mt-[164px] flex flex-col-reverse md:flex-row lg:flex-row justify-between items-center">
+      <div className="max-w-6xl mx-auto text-[#FFFFFF] p-4 mt-10 md:mt-20 lg:mt-[100px] flex flex-col-reverse md:flex-row lg:flex-row justify-between items-center">
         <div>
           <div className="lora text-2xl md:text-4xl lg:text-6xl font-bold mb-3 mt-2">
             <h1>Frontend web</h1>
@@ -36,10 +36,10 @@ const Home = () => {
           </div>
         </div>
   
-        <div className="rounded-full lg:h-1/2 lg:w-1/3 md:w-2/3">
+        <div className="rounded-full lg:h-1/2 lg:w-1/4 md:w-2/3">
           <img
             className="border-2 border-blue-400 rounded-full "
-            src="https://i.postimg.cc/zB4LHqjy/MG-7431.jpg"
+            src="https://i.postimg.cc/Qxj6WNqg/IMG-20240420-182718-removebg-preview.jpg"
             alt="author"
           />
         </div>
